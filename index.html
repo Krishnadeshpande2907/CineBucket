@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ephemeral Movie Sharing Platform — On-demand movie catalog with advanced search by genre & actors, IMDB sorting, and floating details cards.">
+  <meta name="keywords" content="Movie Sharing, Ephemeral Storage, AWS Lambda, S3 Presigned URL, Movie Catalogue">
+  <title>CineBucket | Ephemeral Movie Sharing & Catalogue</title>
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎬</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="main-header">
+    <div class="header-container">
+      <a href="#" class="brand" id="brand-link" aria-label="CineBucket Home">
+        <div class="brand-icon">🎬</div>
+        <div class="brand-text">
+          <h1>CineBucket</h1>
+          <p>cinebucket.in</p>
+        </div>
+      </a>
+
+      <!-- Primary Navigation Tabs -->
+      <nav class="nav-tabs" aria-label="Main Navigation">
+        <button class="nav-tab active" data-tab="all" id="tab-all">🍿 All Movies</button>
+        <button class="nav-tab" data-tab="search" id="tab-search">🔍 Search & Filter</button>
+        <button class="nav-tab" data-tab="genres" id="tab-genres">🎭 Genres</button>
+        <button class="nav-tab" data-tab="top-rated" id="tab-top-rated">⭐ Top Rated</button>
+      </nav>
+
+      <div class="header-actions">
+        <div class="badge-ephemeral" id="system-status-badge">
+          <span class="badge-pulse"></span>
+          <span>Zero-Persist Cloud</span>
+        </div>
+        <button class="btn-icon" id="btn-open-config" title="Configure API Gateway URL" aria-label="Settings">
+          ⚙️
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="main-content">
+    
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+      <h2 class="hero-title">Ephemeral Media Distribution</h2>
+      <p class="hero-subtitle">
+        Explore 87+ movies from our collection. Click any movie card to float up its detailed synopsis, actors, and request high-speed on-demand cloud access.
+      </p>
+    </section>
+
+    <!-- Search & Filter Controls Panel -->
+    <section class="controls-panel" id="controls-panel" aria-label="Search and Filter Controls">
+      <div class="controls-row">
+
+        <!-- Unified Search Input (Title, Actor, Genre) -->
+        <div class="search-input-wrapper">
+          <span class="search-icon">🔍</span>
+          <input 
+            type="search" 
+            id="movie-search" 
+            class="search-bar" 
+            placeholder="Search title, actor (e.g. Brad Pitt), or genre (e.g. Sci-Fi)..."
+            autocomplete="off"
+          >
+          <button class="btn-clear-search" id="btn-clear-search" title="Clear search" style="display: none;">✕</button>
+        </div>
+
+        <!-- Genre Filter Dropdown -->
+        <div class="select-wrapper">
+          <label for="genre-select" class="sr-only">Filter by Genre</label>
+          <select id="genre-select" class="custom-select">
+            <option value="">🎭 All Genres</option>
+          </select>
+        </div>
+
+        <!-- Actor Filter Dropdown -->
+        <div class="select-wrapper">
+          <label for="actor-select" class="sr-only">Filter by Actor</label>
+          <select id="actor-select" class="custom-select">
+            <option value="">👤 All Actors</option>
+          </select>
+        </div>
+
+        <!-- Sorting Dropdown (IMDB, Year, Alphabetical, Default) -->
+        <div class="select-wrapper">
+          <label for="sort-select" class="sr-only">Sort Movies</label>
+          <select id="sort-select" class="custom-select">
+            <option value="id-asc">🎬 Default Order</option>
+            <option value="imdb-desc">⭐ IMDB Rating (Highest First)</option>
+            <option value="imdb-asc">⭐ IMDB Rating (Lowest First)</option>
+            <option value="year-desc">📅 Release Year (Newest First)</option>
+            <option value="year-asc">📅 Release Year (Oldest First)</option>
+            <option value="title-asc">🔤 Alphabetical (A - Z)</option>
+            <option value="title-desc">🔤 Alphabetical (Z - A)</option>
+          </select>
+        </div>
+
+      </div>
+
+      <!-- Quick Genre Pills Bar -->
+      <div class="genre-pills-container" id="genre-pills-container">
+        <!-- Dynamically injected genre pills -->
+      </div>
+    </section>
+
+    <!-- Catalog Grid -->
+    <section aria-label="Movie Catalog">
+      <div class="catalog-header">
+        <h3 class="catalog-title">
+          <span id="catalog-heading">Available Movies</span>
+          <span class="catalog-count" id="catalog-count">0</span>
+        </h3>
+        <div class="active-filter-badge" id="active-filter-badge" style="display: none;">
+          <span id="active-filter-text"></span>
+          <button id="btn-reset-filters" class="btn-reset-tag">Clear Filters ✕</button>
+        </div>
+      </div>
+
+      <div class="movie-grid" id="movie-grid">
+        <!-- Loading State -->
+        <div class="loading-state" id="loading-state">
+          <div class="spinner"></div>
+          <p style="color: var(--text-muted);">Fetching movie catalog...</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Floating Movie Details Modal Card -->
+  <div class="modal-overlay" id="detail-modal" role="dialog" aria-modal="true" aria-labelledby="detail-modal-title">
+    <div class="floating-movie-card" id="floating-movie-card">
+      <button class="btn-close-floating" id="btn-close-detail" aria-label="Close movie details">✕</button>
+
+      <div class="floating-card-grid">
+        <!-- Left Column: Poster Image -->
+        <div class="floating-poster-wrapper">
+          <img src="" alt="Movie Poster" id="detail-poster" class="floating-poster-img" />
+          <div class="floating-poster-badge" id="detail-imdb-badge">⭐ --</div>
+        </div>
+
+        <!-- Right Column: Details & Description -->
+        <div class="floating-details">
+          <div class="floating-meta-header">
+            <span class="floating-year" id="detail-year">2023</span>
+          </div>
+
+          <h2 class="floating-title" id="detail-modal-title">Movie Title</h2>
+
+          <!-- Genres Tag List -->
+          <div class="floating-genres" id="detail-genres">
+            <!-- Genre tags injected here -->
+          </div>
+
+          <!-- Description / Synopsis (Only visible when clicked) -->
+          <div class="floating-synopsis-box">
+            <h4>Synopsis</h4>
+            <p id="detail-description">Movie description text goes here...</p>
+          </div>
+
+          <!-- Starring / Cast -->
+          <div class="floating-cast-section">
+            <h4>Starring</h4>
+            <div class="floating-actors" id="detail-actors">
+              <!-- Actor tags injected here -->
+            </div>
+          </div>
+
+          <!-- Action Footer / Request Download -->
+          <div class="floating-action-footer" id="detail-action-footer">
+            <button class="btn-primary btn-request-download" id="btn-floating-request">
+              <span>⚡ Request Ephemeral Download</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- API Gateway Configuration Modal -->
+  <div class="modal-overlay" id="config-modal" role="dialog" aria-modal="true" aria-labelledby="config-modal-title">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-title" id="config-modal-title">⚙️ API Gateway Settings</h3>
+        <button class="btn-icon" id="btn-close-config" aria-label="Close modal">✕</button>
+      </div>
+      <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.25rem;">
+        Enter your deployed AWS API Gateway HTTP URL. Requests for S3 presigned URLs will be routed to this endpoint.
+      </p>
+      <form id="config-form">
+        <div class="form-group">
+          <label for="api-url-input" class="form-label">API Gateway Endpoint URL</label>
+          <input 
+            type="url" 
+            id="api-url-input" 
+            class="form-input" 
+            placeholder="https://<api-id>.execute-api.ap-south-1.amazonaws.com"
+            required
+          >
+        </div>
+        <button type="submit" class="btn-primary" id="btn-save-config">
+          Save & Apply Configuration
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Link Expired Modal Alert -->
+  <div class="modal-overlay" id="expired-modal" role="dialog" aria-modal="true" aria-labelledby="expired-modal-title">
+    <div class="modal-card" style="border-color: rgba(239, 68, 68, 0.4);">
+      <div class="modal-header">
+        <h3 class="modal-title" id="expired-modal-title" style="color: var(--accent-red); display: flex; align-items: center; gap: 0.5rem;">
+          <span>⚠️</span> Link Expired
+        </h3>
+        <button class="btn-icon" id="btn-close-expired" aria-label="Close modal">✕</button>
+      </div>
+      <div class="alert-expired" style="margin-bottom: 1.5rem;">
+        <span class="alert-expired-icon">🔒</span>
+        <div>
+          <strong>Cloud Resources Purged</strong><br>
+          This download window has closed and the temporary cloud storage has been securely deleted. 
+          Please request the content owner to approve a new upload from their local daemon.
+        </div>
+      </div>
+      <button class="btn-primary" id="btn-ack-expired">Understand & Close</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>CineBucket Ephemeral System &copy; 2026 — Zero-Persist FinOps Infrastructure</p>
+      <div class="footer-tags">
+        <span class="footer-tag">AWS Lambda</span>
+        <span class="footer-tag">Amazon S3 Presigned</span>
+        <span class="footer-tag">Terraform IaC</span>
+        <span class="footer-tag">Go Daemon</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
