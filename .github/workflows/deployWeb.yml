@@ -20,3 +20,4 @@ jobs:
         with:
           folder: web # This tells it to only deploy the web folder
           branch: gh-pages # The branch the website files will be pushed to
+          cname: mov.<your_domain>.in # Added this line to preserve the subdomain on every push
