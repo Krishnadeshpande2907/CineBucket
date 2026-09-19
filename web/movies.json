@@ -1,0 +1,1559 @@
+[
+  {
+    "id": "1",
+    "title": "Blackberry",
+    "year": "2023",
+    "genre": [
+      "Biography",
+      "Comedy",
+      "Drama"
+    ],
+    "IMDB": "7.3",
+    "description": "The story of the meteoric rise and catastrophic demise of the world's first smartphone.",
+    "Actors": [
+      "Jay Baruchel",
+      "Glenn Howerton",
+      "Matt Johnson"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/ePWKQzOnwabMcJsWYWIiy5p1Ofr.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Blade Runner 2049",
+    "year": "2017",
+    "genre": [
+      "Sci-Fi",
+      "Action",
+      "Drama",
+      "Mystery"
+    ],
+    "IMDB": "8.0",
+    "description": "Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for 30 years.",
+    "Actors": [
+      "Ryan Gosling",
+      "Harrison Ford",
+      "Ana de Armas"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Catch Me If You Can",
+    "year": "2002",
+    "genre": [
+      "Biography",
+      "Crime",
+      "Drama"
+    ],
+    "IMDB": "8.1",
+    "description": "The true story of Frank Abagnale Jr., who, before his 19th birthday, successfully conned millions of dollars by posing as a Pan Am pilot, a doctor, and a legal prosecutor.",
+    "Actors": [
+      "Leonardo DiCaprio",
+      "Tom Hanks",
+      "Christopher Walken"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/ctjEj2xM32OvBXCq8zAdK3ZrsAj.jpg"
+  },
+  {
+    "id": "4",
+    "title": "Dead Poets Society",
+    "year": "1989",
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "IMDB": "8.1",
+    "description": "Maverick English teacher John Keating inspires his students to discover their love for poetry, rebel against convention, and seize the day.",
+    "Actors": [
+      "Robin Williams",
+      "Robert Sean Leonard",
+      "Ethan Hawke"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/erzbMlcNHOdx24AXOcn2ZKA7R1q.jpg"
+  },
+  {
+    "id": "5",
+    "title": "Fight Club",
+    "year": "1999",
+    "genre": [
+      "Drama"
+    ],
+    "IMDB": "8.8",
+    "description": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into something much, much more.",
+    "Actors": [
+      "Brad Pitt",
+      "Edward Norton",
+      "Helena Bonham Carter"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg"
+  },
+  {
+    "id": "6",
+    "title": "Inglourious Basterds",
+    "year": "2009",
+    "genre": [
+      "Adventure",
+      "Drama",
+      "War"
+    ],
+    "IMDB": "8.4",
+    "description": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
+    "Actors": [
+      "Brad Pitt",
+      "M\u00e9lanie Laurent",
+      "Christoph Waltz"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/7sfbEnaARXDDhKm0CZ7D7uc2sbo.jpg"
+  },
+  {
+    "id": "7",
+    "title": "Interstellar",
+    "year": "2014",
+    "genre": [
+      "Sci-Fi",
+      "Drama",
+      "Adventure"
+    ],
+    "IMDB": "8.7",
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "Actors": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg"
+  },
+  {
+    "id": "8",
+    "title": "La La Land",
+    "year": "2016",
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Music",
+      "Romance"
+    ],
+    "IMDB": "8.0",
+    "description": "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.",
+    "Actors": [
+      "Ryan Gosling",
+      "Emma Stone",
+      "Rosemarie DeWitt"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg"
+  },
+  {
+    "id": "9",
+    "title": "Margin Call",
+    "year": "2011",
+    "genre": [
+      "Drama",
+      "Thriller"
+    ],
+    "IMDB": "7.1",
+    "description": "Follows the key people at an investment bank over a 24-hour period during the early stages of the 2008 financial crisis.",
+    "Actors": [
+      "Zachary Quinto",
+      "Stanley Tucci",
+      "Kevin Spacey"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/qtO57obCJuUBS0en3HLgFgZ19Xk.jpg"
+  },
+  {
+    "id": "10",
+    "title": "Megamind",
+    "year": "2010",
+    "genre": [
+      "Animation",
+      "Action",
+      "Comedy"
+    ],
+    "IMDB": "7.3",
+    "description": "The supervillain Megamind finally defeats his nemesis, the superhero Metro Man. But without a hero, he loses all purpose and must find a new one.",
+    "Actors": [
+      "Will Ferrell",
+      "Tina Fey",
+      "Brad Pitt"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/uZ9ytt3sPTx62XTfN56ILSuYWRe.jpg"
+  },
+  {
+    "id": "11",
+    "title": "Mission: Impossible - Dead Reckoning Part One",
+    "year": "2023",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Thriller"
+    ],
+    "IMDB": "7.7",
+    "description": "Ethan Hunt and his IMF team must track down a terrifying new weapon that threatens all of humanity if it falls into the wrong hands.",
+    "Actors": [
+      "Tom Cruise",
+      "Hayley Atwell",
+      "Ving Rhames"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/NNxYkU70HPurnNCSiCjYAmacwm.jpg"
+  },
+  {
+    "id": "12",
+    "title": "Mission: Impossible - Rogue Nation",
+    "year": "2015",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Thriller"
+    ],
+    "IMDB": "7.4",
+    "description": "Ethan and his team take on their most impossible mission yet: eradicating the Syndicate - an International rogue organization as highly skilled as they are.",
+    "Actors": [
+      "Tom Cruise",
+      "Rebecca Ferguson",
+      "Jeremy Renner"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/fRJLXQBHK2wyznK5yZbO7vmsuVK.jpg"
+  },
+  {
+    "id": "13",
+    "title": "Mission: Impossible - Ghost Protocol",
+    "year": "2011",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Thriller"
+    ],
+    "IMDB": "7.4",
+    "description": "The IMF is shut down when it's implicated in the bombing of the Kremlin, causing Ethan Hunt and his new team to go rogue to clear their organization's name.",
+    "Actors": [
+      "Tom Cruise",
+      "Jeremy Renner",
+      "Simon Pegg"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/psiWp3VTjznfokmGQG9uqiiknQQ.jpg"
+  },
+  {
+    "id": "14",
+    "title": "Office Space",
+    "year": "1999",
+    "genre": [
+      "Comedy"
+    ],
+    "IMDB": "7.6",
+    "description": "Three company workers who hate their jobs decide to rebel against their greedy boss.",
+    "Actors": [
+      "Ron Livingston",
+      "Jennifer Aniston",
+      "David Herman"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/v7fBXxHZ5WQn2PGgpXhTqHgtcJk.jpg"
+  },
+  {
+    "id": "15",
+    "title": "Oppenheimer",
+    "year": "2023",
+    "genre": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "IMDB": "8.3",
+    "description": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.",
+    "Actors": [
+      "Cillian Murphy",
+      "Emily Blunt",
+      "Matt Damon"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+  },
+  {
+    "id": "16",
+    "title": "Pirates of the Caribbean: At World's End",
+    "year": "2007",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "IMDB": "7.1",
+    "description": "Captain Barbossa, Will Turner and Elizabeth Swann must sail off the edge of the map, navigate treachery and betrayal, and make their final alliances for one last decisive battle.",
+    "Actors": [
+      "Johnny Depp",
+      "Orlando Bloom",
+      "Keira Knightley"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/jGWpG4YhpQwVmjyHEGkxEkeRf0S.jpg"
+  },
+  {
+    "id": "17",
+    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "year": "2003",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "IMDB": "8.1",
+    "description": "Blacksmith Will Turner teams up with eccentric pirate \"Captain\" Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.",
+    "Actors": [
+      "Johnny Depp",
+      "Geoffrey Rush",
+      "Orlando Bloom"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/z8onk7LV9Mmw6zKz4hT6pzzvmvl.jpg"
+  },
+  {
+    "id": "18",
+    "title": "Pirates of the Caribbean: Dead Man's Chest",
+    "year": "2006",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "IMDB": "7.4",
+    "description": "Jack Sparrow races to recover the heart of Davy Jones to avoid enslaving his soul to Jones' service, as otherparties seek the heart for their own ends.",
+    "Actors": [
+      "Johnny Depp",
+      "Orlando Bloom",
+      "Keira Knightley"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/lAhcKRt0ggTFkeFL95jrGQYaRXs.jpg"
+  },
+  {
+    "id": "19",
+    "title": "Pirates of the Caribbean: On Stranger Tides",
+    "year": "2011",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "IMDB": "6.6",
+    "description": "Jack Sparrow and Barbossa embark on a quest to find the elusive fountain of youth, only to discover that Blackbeard and his daughter are after it too.",
+    "Actors": [
+      "Johnny Depp",
+      "Pen\u00e9lope Cruz",
+      "Ian McShane"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/keGfSvCmYj7CvdRx36OdVrAEibE.jpg"
+  },
+  {
+    "id": "20",
+    "title": "Pirates of the Caribbean: Dead Men Tell No Tales",
+    "year": "2017",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "IMDB": "6.5",
+    "description": "Captain Jack Sparrow searches for the Trident of Poseidon while being pursued by an undead sea captain and his crew.",
+    "Actors": [
+      "Johnny Depp",
+      "Geoffrey Rush",
+      "Javier Bardem"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/qwoGfcg6YUS55nUweKGujHE54Wy.jpg"
+  },
+  {
+    "id": "21",
+    "title": "The Prestige",
+    "year": "2006",
+    "genre": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "IMDB": "8.5",
+    "description": "After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+    "Actors": [
+      "Hugh Jackman",
+      "Christian Bale",
+      "Michael Caine"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/2ZOzyhoW08neG27DVySMCcq2emd.jpg"
+  },
+  {
+    "id": "22",
+    "title": "Pulp Fiction",
+    "year": "1994",
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "IMDB": "8.9",
+    "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    "Actors": [
+      "John Travolta",
+      "Uma Thurman",
+      "Samuel L. Jackson"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg"
+  },
+  {
+    "id": "23",
+    "title": "Ready Player One",
+    "year": "2018",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "IMDB": "7.4",
+    "description": "When the creator of a virtual reality world called the OASIS dies, he releases a video in which he challenges all OASIS users to find his Easter Egg, which will give the finder his fortune and control of his world.",
+    "Actors": [
+      "Tye Sheridan",
+      "Olivia Cooke",
+      "Ben Mendelsohn"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/pU1ULUq8D3iRxl1fdX2lZIzdHuI.jpg"
+  },
+  {
+    "id": "24",
+    "title": "Real Steel",
+    "year": "2011",
+    "genre": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "IMDB": "7.1",
+    "description": "In the near future, robot boxing is a top sport. A struggling former boxer thinks he's found a champion in a discarded robot.",
+    "Actors": [
+      "Hugh Jackman",
+      "Evangeline Lilly",
+      "Dakota Goyo"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/4GIeI5K5YdDUkR3mNQBoScpSFEf.jpg"
+  },
+  {
+    "id": "25",
+    "title": "Schindler's List",
+    "year": "1993",
+    "genre": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "IMDB": "9.0",
+    "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+    "Actors": [
+      "Liam Neeson",
+      "Ralph Fiennes",
+      "Ben Kingsley"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg"
+  },
+  {
+    "id": "26",
+    "title": "Shutter Island",
+    "year": "2010",
+    "genre": [
+      "Mystery",
+      "Thriller"
+    ],
+    "IMDB": "8.2",
+    "description": "In 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane.",
+    "Actors": [
+      "Leonardo DiCaprio",
+      "Emily Mortimer",
+      "Mark Ruffalo"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/nrmXQ0zcZUL8jFLrakWc90IR8z9.jpg"
+  },
+  {
+    "id": "27",
+    "title": "Spider-Man 3",
+    "year": "2007",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "IMDB": "6.3",
+    "description": "A strange black entity from another world bonds with Peter Parker and causes inner turmoil as he contends with new villains, temptations, and revenge.",
+    "Actors": [
+      "Tobey Maguire",
+      "Kirsten Dunst",
+      "Topher Grace"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/qFmwhVUoUSXjkKRmca5yGDEXBIj.jpg"
+  },
+  {
+    "id": "28",
+    "title": "Spider-Man: Across the Spider-Verse",
+    "year": "2023",
+    "genre": [
+      "Animation",
+      "Action",
+      "Adventure"
+    ],
+    "IMDB": "8.6",
+    "description": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence. When the heroes clash on how to handle a new threat, Miles must redefine what it means to be a hero.",
+    "Actors": [
+      "Shameik Moore",
+      "Hailee Steinfeld",
+      "Brian Tyree Henry"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg"
+  },
+  {
+    "id": "29",
+    "title": "Stree",
+    "year": "2018",
+    "genre": [
+      "Comedy",
+      "Horror"
+    ],
+    "IMDB": "7.5",
+    "description": "In the small town of Chanderi, the menfolk live in fear of an evil spirit named 'Stree' who abducts men at night.",
+    "Actors": [
+      "Rajkummar Rao",
+      "Shraddha Kapoor",
+      "Pankaj Tripathi"
+    ],
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjAxODFjMWUtOGQ5Zi00YWMyLWFlMjYtNWRkY2M5Y2Y0ZmRkXkEyXkFqcGc@._V1_.jpg"
+  },
+  {
+    "id": "30",
+    "title": "Swatantra Veer Savarkar",
+    "year": "2024",
+    "genre": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "IMDB": "5.9",
+    "description": "The film follows the life of Vinayak Damodar Savarkar, an Indian independence activist and politician.",
+    "Actors": [
+      "Randeep Hooda",
+      "Ankita Lokhande",
+      "Amit Sial"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/3MRZg94TNfdim6bnigrvUhqqoaM.jpg"
+  },
+  {
+    "id": "31",
+    "title": "Tenet",
+    "year": "2020",
+    "genre": [
+      "Action",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "IMDB": "7.3",
+    "description": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+    "Actors": [
+      "John David Washington",
+      "Robert Pattinson",
+      "Elizabeth Debicki"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/aCIFMriQh8rvhxpN1IWGgvH0Tlg.jpg"
+  },
+  {
+    "id": "32",
+    "title": "Tetris",
+    "year": "2023",
+    "genre": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "IMDB": "7.4",
+    "description": "The story of how one of the world's most popular video games found its way to players around the globe. Businessman Henk Rogers and Tetris inventor Alexey Pajitnov join forces in the USSR, risking it all to bring Tetris to the masses.",
+    "Actors": [
+      "Taron Egerton",
+      "Mara Huf",
+      "Toby Jones"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/4F2QwCOYHJJjecSvdOjStuVLkpu.jpg"
+  },
+  {
+    "id": "33",
+    "title": "The Fast and the Furious: Tokyo Drift",
+    "year": "2006",
+    "genre": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "IMDB": "6.0",
+    "description": "A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America.",
+    "Actors": [
+      "Lucas Black",
+      "Zachery Ty Bryan",
+      "Shad Moss"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/46xqGOwHbh2TH2avWSw3SMXph4E.jpg"
+  },
+  {
+    "id": "34",
+    "title": "The Imitation Game",
+    "year": "2014",
+    "genre": [
+      "Biography",
+      "Drama",
+      "Thriller"
+    ],
+    "IMDB": "8.0",
+    "description": "During World War II, the English mathematical genius Alan Turing tries to crack the German Enigma code with help from fellow mathematicians.",
+    "Actors": [
+      "Benedict Cumberbatch",
+      "Keira Knightley",
+      "Matthew Goode"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/zSqJ1qFq8NXFfi7JeIYMlzyR0dx.jpg"
+  },
+  {
+    "id": "35",
+    "title": "The Matrix",
+    "year": "1999",
+    "genre": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "IMDB": "8.7",
+    "description": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+    "Actors": [
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Carrie-Anne Moss"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/p96dm7sCMn4VYAStA6siNz30G1r.jpg"
+  },
+  {
+    "id": "36",
+    "title": "The Social Network",
+    "year": "2010",
+    "genre": [
+      "Biography",
+      "Drama"
+    ],
+    "IMDB": "7.8",
+    "description": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea, and by the co-founder who was later squeezed out of the business.",
+    "Actors": [
+      "Jesse Eisenberg",
+      "Andrew Garfield",
+      "Justin Timberlake"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/n0ybibhJtQ5icDqTp8eRytcIHJx.jpg"
+  },
+  {
+    "id": "37",
+    "title": "The Usual Suspects",
+    "year": "1995",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "IMDB": "8.5",
+    "description": "A sole survivor tells the twisted events leading up to a horrific gun battle on a boat, which began when five criminals met at a seemingly random police lineup.",
+    "Actors": [
+      "Kevin Spacey",
+      "Gabriel Byrne",
+      "Chazz Palminteri"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/99X2SgyFunJFXGAYnDv3sb9pnUD.jpg"
+  },
+  {
+    "id": "38",
+    "title": "The Burial",
+    "year": "2023",
+    "genre": [
+      "Drama"
+    ],
+    "IMDB": "7.2",
+    "description": "A lawyer helps a funeral home owner save his family business from a corporate giant. Inspired by true events.",
+    "Actors": [
+      "Jamie Foxx",
+      "Tommy Lee Jones",
+      "Jurnee Smollett"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/9ssNSfNKpzZwhbFsnW3wa82m2sG.jpg"
+  },
+  {
+    "id": "39",
+    "title": "Thor: Love and Thunder",
+    "year": "2022",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "IMDB": "6.2",
+    "description": "Thor enlists the help of Valkyrie, Korg, and ex-girlfriend Jane Foster to fight Gorr the God Butcher, who intends to make the gods extinct.",
+    "Actors": [
+      "Chris Hemsworth",
+      "Natalie Portman",
+      "Christian Bale"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/pIkRyD18kl4FhoCNQuWxWu5cBLM.jpg"
+  },
+  {
+    "id": "40",
+    "title": "Three Billboards Outside Ebbing, Missouri",
+    "year": "2017",
+    "genre": [
+      "Comedy",
+      "Crime",
+      "Drama"
+    ],
+    "IMDB": "8.1",
+    "description": "A mother personally challenges the local authorities to solve her daughter's murder when they fail to catch the culprit.",
+    "Actors": [
+      "Frances McDormand",
+      "Woody Harrelson",
+      "Sam Rockwell"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/uGMM9ZObmPUFrGqcbFMVyv8L1lU.jpg"
+  },
+  {
+    "id": "41",
+    "title": "Transformers",
+    "year": "2007",
+    "genre": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "IMDB": "7.0",
+    "description": "An ancient struggle between two Cybertronian races, the heroic Autobots and the evil Decepticons, comes to Earth, with a clue to the ultimate power held by a teenager.",
+    "Actors": [
+      "Shia LaBeouf",
+      "Megan Fox",
+      "Josh Duhamel"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/1P7w3AImoEOWJX7nn3fdaKDfEQA.jpg"
+  },
+  {
+    "id": "42",
+    "title": "Transformers: Revenge of the Fallen",
+    "year": "2009",
+    "genre": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "IMDB": "5.9",
+    "description": "Sam Witwicky leaves the Autobots behind for a normal life. But when his mind is filled with cryptic symbols, the Decepticons target him and he is dragged back into the Transformers' war.",
+    "Actors": [
+      "Shia LaBeouf",
+      "Megan Fox",
+      "Josh Duhamel"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/pLBb0whOzVDtJvyD4DPeQyQNOqp.jpg"
+  },
+  {
+    "id": "43",
+    "title": "Transformers: Dark of the Moon",
+    "year": "2011",
+    "genre": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "IMDB": "6.2",
+    "description": "The Autobots learn of a Cybertronian spacecraft hidden on the Moon and race against the Decepticons to reach it and learn its secrets.",
+    "Actors": [
+      "Shia LaBeouf",
+      "Rosie Huntington-Whiteley",
+      "Tyrese Gibson"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/28YlCLrFhONteYSs9hKjD1Km0Cj.jpg"
+  },
+  {
+    "id": "44",
+    "title": "Transformers: Age of Extinction",
+    "year": "2014",
+    "genre": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "IMDB": "5.6",
+    "description": "When humanity allies with a bounty hunter in pursuit of Optimus Prime, the Autobots turn to a mechanic and his family for help.",
+    "Actors": [
+      "Mark Wahlberg",
+      "Nicola Peltz Beckham",
+      "Jack Reynor"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/jyzrfx2WaeY60kYZpPYepSjGz4S.jpg"
+  },
+  {
+    "id": "45",
+    "title": "Transformers: The Last Knight",
+    "year": "2017",
+    "genre": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "IMDB": "5.2",
+    "description": "A deadly threat from Earth's past resurfaces and causes Optimus Prime to hunt down his creator. The Autobots must join forces with an unlikely alliance to save Earth.",
+    "Actors": [
+      "Mark Wahlberg",
+      "Anthony Hopkins",
+      "Josh Duhamel"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/s5HQf2Gb3lIO2cRcFwNL9sn1o1o.jpg"
+  },
+  {
+    "id": "46",
+    "title": "Whiplash",
+    "year": "2014",
+    "genre": [
+      "Drama",
+      "Music"
+    ],
+    "IMDB": "8.5",
+    "description": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+    "Actors": [
+      "Miles Teller",
+      "J.K. Simmons",
+      "Melissa Benoist"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/7fn624j5lj3xTme2SgiLCeuedmO.jpg"
+  },
+  {
+    "id": "47",
+    "title": "(500) Days of Summer",
+    "year": "2009",
+    "genre": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "IMDB": "7.7",
+    "description": "An offbeat romantic comedy about a woman who doesn't believe true love exists, and the young man who falls for her.",
+    "Actors": [
+      "Zooey Deschanel",
+      "Joseph Gordon-Levitt",
+      "Geoffrey Arend"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/qXAuQ9hF30sQRsXf40OfRVl0MJZ.jpg"
+  },
+  {
+    "id": "48",
+    "title": "Dark Waters",
+    "year": "2019",
+    "genre": [
+      "Biography",
+      "Drama",
+      "History",
+      "Thriller"
+    ],
+    "IMDB": "7.6",
+    "description": "A corporate defense attorney takes on an environmental lawsuit against a chemical company that exposes a long history of pollution.",
+    "Actors": [
+      "Mark Ruffalo",
+      "Anne Hathaway",
+      "Tim Robbins"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/bzvzaHqKBSuGIIWhinTQPHvT0zf.jpg"
+  },
+  {
+    "id": "49",
+    "title": "Deadpool & Wolverine",
+    "year": "2024",
+    "genre": [
+      "Action",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "IMDB": "7.7",
+    "description": "Wolverine is recovering from his injuries when he crosses paths with the loudmouth, Deadpool. They team up to defeat a common enemy.",
+    "Actors": [
+      "Ryan Reynolds",
+      "Hugh Jackman",
+      "Emma Corrin"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg"
+  },
+  {
+    "id": "50",
+    "title": "Dune: Part Two",
+    "year": "2024",
+    "genre": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "IMDB": "8.6",
+    "description": "Paul Atreides unites with Chani and the Fremen while on a warpath of revenge against the conspirators who destroyed his family.",
+    "Actors": [
+      "Timoth\u00e9e Chalamet",
+      "Zendaya",
+      "Rebecca Ferguson"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg"
+  },
+  {
+    "id": "51",
+    "title": "Escape from Alcatraz",
+    "year": "1979",
+    "genre": [
+      "Action",
+      "Biography",
+      "Crime",
+      "Drama"
+    ],
+    "IMDB": "7.6",
+    "description": "Alcatraz is the most secure prison of its time. It is believed no one can ever escape. Three men, led by mastermind Frank Morris, are about to become the first to do so.",
+    "Actors": [
+      "Clint Eastwood",
+      "Patrick McGoohan",
+      "Roberts Blossom"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/uORr2GXQnyqgBOg6tVsRCJD2qxc.jpg"
+  },
+  {
+    "id": "52",
+    "title": "Moneyball",
+    "year": "2011",
+    "genre": [
+      "Biography",
+      "Drama",
+      "Sport"
+    ],
+    "IMDB": "7.6",
+    "description": "Oakland A's general manager Billy Beane's successful attempt to assemble a baseball team on a lean budget by employing computer-generated analysis to acquire new players.",
+    "Actors": [
+      "Brad Pitt",
+      "Jonah Hill",
+      "Philip Seymour Hoffman"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/4yIQq1e6iOcaZ5rLDG3lZBP3j7a.jpg"
+  },
+  {
+    "id": "53",
+    "title": "The Dark Knight",
+    "year": "2008",
+    "genre": [
+      "Action",
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "IMDB": "9.0",
+    "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    "Actors": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+  },
+  {
+    "id": "54",
+    "title": "The Dark Knight Rises",
+    "year": "2012",
+    "genre": [
+      "Action",
+      "Drama",
+      "Thriller"
+    ],
+    "IMDB": "8.4",
+    "description": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane.",
+    "Actors": [
+      "Christian Bale",
+      "Tom Hardy",
+      "Anne Hathaway"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/hr0L2aueqlP2BYUblTTjmtn0hw4.jpg"
+  },
+  {
+    "id": "55",
+    "title": "The Garden of Words",
+    "year": "2013",
+    "genre": [
+      "Animation",
+      "Drama",
+      "Romance"
+    ],
+    "IMDB": "7.4",
+    "description": "A 15-year-old boy and 27-year-old woman find an unlikely friendship one rainy day in the Shinjuku Gyoen National Garden.",
+    "Actors": [
+      "Miyu Irino",
+      "Kana Hanazawa",
+      "Fumi Hirano"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/mXUCVq3HMtS4Y9IQ8vmEOPyN0vH.jpg"
+  },
+  {
+    "id": "56",
+    "title": "Howl's Moving Castle",
+    "year": "2004",
+    "genre": [
+      "Animation",
+      "Adventure",
+      "Family",
+      "Fantasy"
+    ],
+    "IMDB": "8.2",
+    "description": "When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle.",
+    "Actors": [
+      "Chieko Baish\u00f4",
+      "Takuya Kimura",
+      "Tatsuya Gash\u00fbin"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/13kOl2v0nD2OLbVSHnHk8GUFEhO.jpg"
+  },
+  {
+    "id": "57",
+    "title": "I Want to Eat Your Pancreas",
+    "year": "2018",
+    "genre": [
+      "Animation",
+      "Drama",
+      "Family",
+      "Romance"
+    ],
+    "IMDB": "8.0",
+    "description": "An aloof boy comes across a book in a hospital waiting room. He discovers it is the diary of a girl in his class who is suffering from a terminal pancreatic illness.",
+    "Actors": [
+      "Mahiro Takasugi",
+      "Lynn",
+      "Yukiyo Fujii"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/qDWA7fB4cZ4sBP6YgwlxvraDHi7.jpg"
+  },
+  {
+    "id": "58",
+    "title": "Gone Girl",
+    "year": "2014",
+    "genre": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "IMDB": "8.1",
+    "description": "With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent.",
+    "Actors": [
+      "Ben Affleck",
+      "Rosamund Pike",
+      "Neil Patrick Harris"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/ts996lKsxvjkO2yiYG0ht4qAicO.jpg"
+  },
+  {
+    "id": "59",
+    "title": "Redline",
+    "year": "2009",
+    "genre": [
+      "Animation",
+      "Action",
+      "Sci-Fi"
+    ],
+    "IMDB": "7.5",
+    "description": "A story about the most popular and deadly racing competition in the universe. Only held once every five years, everyone wants to stake their claim to fame, including JP, a reckless dare-devil driver.",
+    "Actors": [
+      "Takuya Kimura",
+      "Y\u00fb Aoi",
+      "Tadanobu Asano"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/yUkH0y9OsY7J08Dvfzi1P0di559.jpg"
+  },
+  {
+    "id": "60",
+    "title": "Red Notice",
+    "year": "2021",
+    "genre": [
+      "Action",
+      "Comedy",
+      "Thriller"
+    ],
+    "IMDB": "6.3",
+    "description": "An FBI profiler pursuing the world's most wanted art thief becomes his reluctant partner in crime to catch an elusive crook who's always one step ahead.",
+    "Actors": [
+      "Dwayne Johnson",
+      "Ryan Reynolds",
+      "Gal Gadot"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/lAXONuqg41NwUMuzMiFvicDET9Y.jpg"
+  },
+  {
+    "id": "61",
+    "title": "Scent of a Woman",
+    "year": "1992",
+    "genre": [
+      "Drama"
+    ],
+    "IMDB": "8.0",
+    "description": "A prep school student needing money agrees to 'babysit' a blind, irritable retired Army lieutenant colonel.",
+    "Actors": [
+      "Al Pacino",
+      "Chris O'Donnell",
+      "James Rebhorn"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/4adI7IaveWb7EidYXfLb3MK3CgO.jpg"
+  },
+  {
+    "id": "62",
+    "title": "The Shawshank Redemption",
+    "year": "1994",
+    "genre": [
+      "Drama"
+    ],
+    "IMDB": "9.3",
+    "description": "Over the course of several years, two convicts form a friendship, seeking solace and, eventually, redemption through basic compassion.",
+    "Actors": [
+      "Tim Robbins",
+      "Morgan Freeman",
+      "Bob Gunton"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg"
+  },
+  {
+    "id": "63",
+    "title": "Talaash",
+    "year": "2012",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "IMDB": "7.2",
+    "description": "Police officer Surjan Singh Shekhawat, who is dealing with a personal loss, gets assigned to investigate a high-profile actor's death.",
+    "Actors": [
+      "Aamir Khan",
+      "Kareena Kapoor",
+      "Rani Mukerji"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/oCxyN7HmJ7zWp8jtJeMRHABnutF.jpg"
+  },
+  {
+    "id": "64",
+    "title": "The Kerala Story",
+    "year": "2023",
+    "genre": [
+      "Drama"
+    ],
+    "IMDB": "5.8",
+    "description": "The film follows the story of a group of women from Kerala who are converted to Islam and join the Islamic State of Iraq and Syria (ISIS).",
+    "Actors": [
+      "Adah Sharma",
+      "Yogita Bihani",
+      "Sonia Balani"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/g70f3hwn5jPaNzqPssoa9unlawo.jpg"
+  },
+  {
+    "id": "65",
+    "title": "The LEGO Batman Movie",
+    "year": "2017",
+    "genre": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
+    "IMDB": "7.3",
+    "description": "A cooler-than-ever Bruce Wayne must deal with the usual suspects as they plan to rule Gotham City, while discovering that he has accidentally adopted a teenage orphan who wishes to become his sidekick.",
+    "Actors": [
+      "Will Arnett",
+      "Michael Cera",
+      "Rosario Dawson"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/snGwr2gag4Fcgx2OGmH9otl6ofW.jpg"
+  },
+  {
+    "id": "66",
+    "title": "The Tashkent Files",
+    "year": "2019",
+    "genre": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "IMDB": "7.4",
+    "description": "A young journalist tries to investigate and uncover the truth behind the mysterious death of India's 2nd Prime Minister, Lal Bahadur Shastri.",
+    "Actors": [
+      "Shweta Basu Prasad",
+      "Mithun Chakraborty",
+      "Naseeruddin Shah"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/rIIERAso7BYRvfMU8zqmnYLpm8D.jpg"
+  },
+  {
+    "id": "67",
+    "title": "Violet Evergarden: The Movie",
+    "year": "2020",
+    "genre": [
+      "Animation",
+      "Drama",
+      "Fantasy"
+    ],
+    "IMDB": "8.3",
+    "description": "After the Great War, Violet Evergarden, a young ex-soldier, gets a job at a writers' agency and goes on assignments to create letters that can connect people.",
+    "Actors": [
+      "Yui Ishikawa",
+      "Daisuke Namikawa",
+      "Takehito Koyasu"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/4b7uAGVtgA85Yd911yOJqIsHigx.jpg"
+  },
+  {
+    "id": "68",
+    "title": "Zodiac",
+    "year": "2007",
+    "genre": [
+      "Crime",
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "IMDB": "7.7",
+    "description": "Between 1968 and 1983, a San Francisco cartoonist becomes an amateur detective obsessed with tracking down the Zodiac Killer, an unidentified serial killer who terrorizes Northern California with a trail of terror and ciphers.",
+    "Actors": [
+      "Jake Gyllenhaal",
+      "Robert Downey Jr.",
+      "Mark Ruffalo"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/6YmeO4pB7XTh8P8F960O1uA14JO.jpg"
+  },
+  {
+    "id": "69",
+    "title": "F1",
+    "year": "2025",
+    "genre": [
+      "Sports",
+      "Drama",
+      "Action"
+    ],
+    "IMDB": "7.7",
+    "description": "A former Formula One driver, Sonny Hayes, returns to the sport after a long absence to team up with a rookie driver, Joshua Pearce, for the underdog APXGP team.",
+    "Actors": [
+      "Brad Pitt",
+      "Damson Idris",
+      "Javier Bardem",
+      "Kerry Condon"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/9PXZIUsSDh4alB80jheWX4fhZmy.jpg"
+  },
+  {
+    "id": "70",
+    "title": "Sultan",
+    "year": "2016",
+    "genre": [
+      "Sports",
+      "Drama",
+      "Action"
+    ],
+    "IMDB": "7.1",
+    "description": "Sultan is a classic underdog tale about a wrestler's journey, looking for a comeback by defeating all odds.",
+    "Actors": [
+      "Salman Khan",
+      "Anushka Sharma",
+      "Randeep Hooda",
+      "Amit Sadh"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/vPTYtKuV8X5uUd3SqnzO14W6Dti.jpg"
+  },
+  {
+    "id": "71",
+    "title": "Tiger Zinda Hai",
+    "year": "2017",
+    "genre": [
+      "Thriller",
+      "Drama",
+      "Action"
+    ],
+    "IMDB": "5.9",
+    "description": "When a group of Indian and Pakistani nurses are taken hostage by a terrorist organization in Iraq, a long-hidden secret agent emerges to rescue them.",
+    "Actors": [
+      "Salman Khan",
+      "Katrina Kaif",
+      "Paresh Rawal"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/mdzNLFfCfuBoJz43l0SmMWWdu5t.jpg"
+  },
+  {
+    "id": "72",
+    "title": "Se7en",
+    "year": "1995",
+    "genre": [
+      "Thriller",
+      "Drama",
+      "Action",
+      "Crime"
+    ],
+    "IMDB": "8.6",
+    "description": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
+    "Actors": [
+      "Brad Pitt",
+      "Morgan Freeman",
+      "Gwyneth Paltrow",
+      "Kevin Spacey"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/191nKfP0ehp3uIvWqgPbFmI4lv9.jpg"
+  },
+  {
+    "id": "73",
+    "title": "The Girl with the Dragon Tattoo",
+    "year": "2011",
+    "genre": [
+      "Thriller",
+      "Drama",
+      "Crime"
+    ],
+    "IMDB": "7.8",
+    "description": "Journalist Mikael Blomkvist is aided in his search for a woman who has been missing for 40 years by hacker Lisbeth Salander.",
+    "Actors": [
+      "Daniel Craig",
+      "Rooney Mara",
+      "Christopher Plummer"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/8bokS83zGdhaXgN9tjidUKmAftW.jpg"
+  },
+  {
+    "id": "74",
+    "title": "Little Women",
+    "year": "2019",
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "IMDB": "7.8",
+    "description": "In 19th century Massachusetts, the March sisters--Meg, Jo, Beth, and Amy--on the threshold of womanhood, go through many ups and downs in life and endeavor to make important decisions about their futures.",
+    "Actors": [
+      "Saoirse Ronan",
+      "Florence Pugh",
+      "Emma Watson"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/yn5ihODtZ7ofn8pDYfxCmxh8AXI.jpg"
+  },
+  {
+    "id": "75",
+    "title": "Cars",
+    "year": "2006",
+    "genre": [
+      "Adventure",
+      "Animation",
+      "Comedy"
+    ],
+    "IMDB": "7.3",
+    "description": "On the way to the biggest race of his life, a hotshot rookie race car gets stranded in a rundown town and learns that winning isn't everything in life.",
+    "Actors": [
+      "Owen Wilson",
+      "Bonnie Hunt",
+      "Paul Newman"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/2Touk3m5gzsqr1VsvxypdyHY5ci.jpg"
+  },
+  {
+    "id": "76",
+    "title": "Iron Man",
+    "year": "2008",
+    "genre": [
+      "Adventure",
+      "Action"
+    ],
+    "IMDB": "7.9",
+    "description": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+    "Actors": [
+      "Robert Downey Jr.",
+      "Jeff Bridges",
+      "Gwyneth Paltrow"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/78lPtwv72eTNqFW9COBYI0dWDJa.jpg"
+  },
+  {
+    "id": "77",
+    "title": "Cars 2",
+    "year": "2011",
+    "genre": [
+      "Adventure",
+      "Animation",
+      "Comedy"
+    ],
+    "IMDB": "6.2",
+    "description": "Star race car Lightning McQueen and his pal Mater head overseas to compete in the World Grand Prix race. But the road to the championship becomes rocky as Mater gets caught up in an intriguing adventure of his own: international espionage.",
+    "Actors": [
+      "Larry the Cable Guy",
+      "Michael Caine",
+      "Owen Wilson"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/okIz1HyxeVOMzYwwHUjH2pHi74I.jpg"
+  },
+  {
+    "id": "78",
+    "title": "Iron Man 3",
+    "year": "2013",
+    "genre": [
+      "Adventure",
+      "Action"
+    ],
+    "IMDB": "7.1",
+    "description": "When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.",
+    "Actors": [
+      "Robert Downey Jr.",
+      "Gwyneth Paltrow",
+      "Guy Pearce"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_face/qhPtAc1TKbMPqNvcdXSOn9Bn7hZ.jpg"
+  },
+  {
+    "id": "79",
+    "title": "Iron Man 2",
+    "year": "2010",
+    "genre": [
+      "Adventure",
+      "Action"
+    ],
+    "IMDB": "6.9",
+    "description": "With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy.",
+    "Actors": [
+      "Robert Downey Jr.",
+      "Gwyneth Paltrow",
+      "Mickey Rourke"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_face/6WBeq4fCfn7AN0o21W9qNcRF2l9.jpg"
+  },
+  {
+    "id": "80",
+    "title": "The Hangover",
+    "year": "2009",
+    "genre": [
+      "Adventure",
+      "Comedy"
+    ],
+    "IMDB": "7.7",
+    "description": "Three buddies wake up from a bachelor party in Las Vegas with no memory of the previous night and the bachelor missing. They must make their way around the city in order to find their friend in time for his wedding.",
+    "Actors": [
+      "Bradley Cooper",
+      "Ed Helms",
+      "Zach Galifianakis",
+      "Justin Bartha",
+      "Ken Jeong"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_face/A0uS9rHR56FeBtpjVki16M5xxSW.jpg"
+  },
+  {
+    "id": "81",
+    "title": "The Hangover Part II",
+    "year": "2011",
+    "genre": [
+      "Adventure",
+      "Comedy"
+    ],
+    "IMDB": "6.5",
+    "description": "Two years after the bachelor party in Las Vegas, Phil, Stu, Alan, and Doug jet to Thailand for Stu's wedding, but Stu's plan for subdued pre-wedding brunch goes seriously awry.",
+    "Actors": [
+      "Bradley Cooper",
+      "Ed Helms",
+      "Zach Galifianakis",
+      "Justin Bartha",
+      "Ken Jeong"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_face/cKZu0Fdkj7dmwbfMpgDqVVCkLJQ.jpg"
+  },
+  {
+    "id": "82",
+    "title": "The Hangover Part III",
+    "year": "2013",
+    "genre": [
+      "Adventure",
+      "Comedy"
+    ],
+    "IMDB": "5.9",
+    "description": "When one of their own is kidnapped by an angry gangster, the Wolf Pack must track down Mr. Chow, who has escaped from prison and is on the run.",
+    "Actors": [
+      "Bradley Cooper",
+      "Ed Helms",
+      "Zach Galifianakis",
+      "Justin Bartha",
+      "Ken Jeong"
+    ],
+    "posterUrl": "https://www.themoviedb.org/t/p/w600_and_h900_face/vtxuPWkdllLNLVyGjKYa267ntuH.jpg"
+  },
+  {
+    "id": "83",
+    "title": "The Devil's Advocate",
+    "year": "1997",
+    "genre": [
+      "Drama",
+      "Thriller",
+      "Mystery"
+    ],
+    "IMDB": "7.5",
+    "description": "An exceptionally adept Florida lawyer is offered a job at a high-end New York City law firm with a high-end boss - the biggest opportunity of his career to date.",
+    "Actors": [
+      "Al Pacino",
+      "Keanu Reeves",
+      "Charlize Theron"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_face/5ZzBGpxy55OQzHxKVY11IpY6a0o.jpg"
+  },
+  {
+    "id": "84",
+    "title": "Anyone But You",
+    "year": "2023",
+    "genre": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ],
+    "IMDB": "6.1",
+    "description": "After an amazing first date, Bea and Ben's fiery attraction turns ice-cold--until they find themselves unexpectedly reunited at a wedding in Australia. So they do what any two mature adults would do: pretend to be a couple.",
+    "Actors": [
+      "Sydney Sweeney",
+      "Glen Powell",
+      "Alexandra Shipp"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_face/5qHoazZiaLe7oFBok7XlUhg96f2.jpg"
+  },
+  {
+    "id": "85",
+    "title": "Kantara",
+    "year": "2022",
+    "genre": [
+      "Drama",
+      "Action",
+      "Thriller"
+    ],
+    "IMDB": "8.1",
+    "description": "When greed paves the way for betrayal, scheming and murder, a young tribal reluctantly dons the traditions of his ancestors to seek justice.",
+    "Actors": [
+      "Rishab Shetty",
+      "Kishore Kumar G.",
+      "Achyuth Kumar"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_face/jIsKmkxMzdCZ0Ux1GVSnu8m6Na6.jpg"
+  },
+  {
+    "id": "86",
+    "title": "Roofman",
+    "year": "2025",
+    "genre": [
+      "Drama",
+      "Crime",
+      "Biography"
+    ],
+    "IMDB": "7.0",
+    "description": "A charismatic criminal, while on the run from the police, hides in a hidden space of a toy store. There, he adopts a new identity and becomes involved with an employee, beginning a relationship as unlikely as it is risky.",
+    "Actors": [
+      "Channing Tatum",
+      "Kirsten Dunst",
+      "LaKeith Stanfield"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_face/wXDFtcnYtevleGzCmAD2ReQnJ4l.jpg"
+  },
+  {
+    "id": "87",
+    "title": "Snowden",
+    "year": "2016",
+    "genre": [
+      "Thriller",
+      "Crime",
+      "Biography"
+    ],
+    "IMDB": "7.3",
+    "description": "The NSA's illegal surveillance techniques are leaked to the public by one of the agency's employees, Edward Snowden, in the form of thousands of classified documents distributed to the press.",
+    "Actors": [
+      "Joseph Gordon-Levitt",
+      "Shailene Woodley",
+      "Melissa Leo"
+    ],
+    "posterUrl": "https://media.themoviedb.org/t/p/w300_and_h450_face/yfK7zxNL63VWfluFuoUaJj5PdNw.jpg"
+  }
+]

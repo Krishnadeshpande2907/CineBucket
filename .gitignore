@@ -1,0 +1,24 @@
+# Excluded files
+detailed_prompt.md
+PROMPT_INSTRUCTIONS.md
+steps.txt
+/movies.json
+
+# Build artifacts
+cmd/lambda-controller/bootstrap
+cmd/lambda-controller/bootstrap.zip
+cmd/lambda-controller/function.zip
+cmd/local-daemon/mov-cli
+cmd/local-daemon/cinebucket
+
+# Terraform
+infra/.terraform/
+infra/*.tfstate
+infra/*.tfstate.backup
+infra/.terraform.lock.hcl
+infra/*.tfvars
+
+# OS
+.DS_Store
+*.swp
+*.swo
